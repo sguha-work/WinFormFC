@@ -69,6 +69,8 @@
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
     <Import Include="System.Threading.Tasks" />
+    <Import Include="WindowsApplication1.FusionCharts" />
+    <Import Include="WindowsApplication1.FusionCharts.Charts" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.vb">
@@ -119,7 +121,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Folder Include="fusioncharts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

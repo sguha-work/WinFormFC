@@ -28,16 +28,17 @@ Partial Class Form1
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(133, 55)
+        Me.WebBrowser1.Location = New System.Drawing.Point(63, 55)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.ScriptErrorsSuppressed = True
         Me.WebBrowser1.ScrollBarsEnabled = False
-        Me.WebBrowser1.Size = New System.Drawing.Size(325, 174)
+        Me.WebBrowser1.Size = New System.Drawing.Size(828, 439)
         Me.WebBrowser1.TabIndex = 0
         '
         'btn_loadFusionCharts
         '
-        Me.btn_loadFusionCharts.Location = New System.Drawing.Point(210, 261)
+        Me.btn_loadFusionCharts.Location = New System.Drawing.Point(383, 511)
         Me.btn_loadFusionCharts.Name = "btn_loadFusionCharts"
         Me.btn_loadFusionCharts.Size = New System.Drawing.Size(167, 35)
         Me.btn_loadFusionCharts.TabIndex = 1
@@ -48,7 +49,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(568, 338)
+        Me.ClientSize = New System.Drawing.Size(961, 558)
         Me.Controls.Add(Me.btn_loadFusionCharts)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Name = "Form1"
@@ -56,7 +57,7 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents btn_loadFusionCharts As System.Windows.Forms.Button
+    Public WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
 
 End Class
